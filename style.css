@@ -1,0 +1,151 @@
+
+@import url(//db.onlinewebfonts.com/c/b6e1e126bc19c3e9fe26136203746a13?family=Kefa+PressS);
+body {
+    width: 60vw;
+    
+}
+h1 {
+    width: 40vw;
+    font-size: 7em;
+    margin-top: -7vw;
+    margin-left: 2.5vw;
+    font-family: Kefa PressS;
+    color: rgb(24, 103, 211);
+}
+
+#figr {
+    position: absolute;
+    right: 2.5vw;
+    top: 10vw;
+
+}
+ 
+.bk1 {
+    width: 40vw;
+    font-size: 2em;
+    margin-left: 2.5vw;
+    line-height: 1.5em;
+    font-family: Kefa PressS;
+    color: rgb(24, 103, 211);
+}
+
+.bk2 {
+    
+    color: rgb(164, 179, 244);
+}
+
+b { 
+    font-size: 1.5em;
+    color: rgb(24, 103, 211);
+}
+
+p {
+    font-size: 1em;
+    font-family: Helvetica;
+}
+
+aside {
+    width: 30vw;
+    font-size: 3em;
+    position: absolute;
+    right: 2.5vw;
+    color: rgb(164, 179, 244);
+
+}
+
+/*––––––––––––––––––––––––––Tablet––––––––––––––––––––––––––––––––*/
+
+@media only screen and (min-width: 800px) and (max-width: 1280px) {
+@import url("https://use.typekit.net/lvv7cpx.css");
+
+body{
+    background-color: white;
+    font-family: mrs-eaves, serif;
+    width: 90vw;
+    margin-left: 5vw;
+}
+
+p {
+    font-size: 1em;
+    font-family: mrs-eaves, serif;
+}
+
+#figr {
+    position: relative;
+    top: 0vw;
+    width: 610px;
+    margin-left: 15vw;
+}
+h1 {
+    width: 90vw;
+    font-size: 5em;
+    margin-top: -7vw;
+    font-family: mrs-eaves, serif;
+}
+
+.sp1 {
+    width: 90vw;
+}
+
+.bk1 {
+    font-family: mrs-eaves, serif;
+    width: 90vw;
+    font-size: 2em;
+    color: rgb(164, 179, 244);
+}
+
+.bk2 {
+    font-family: mrs-eaves, serif;
+    font-size: .8em;
+    width: 90vw;
+    color: rgb(164, 179, 244);
+}
+
+.rgt {
+    color: rgb(164, 179, 244);
+}
+
+aside {
+    width: 30vw;
+    font-size: 3em;
+    position: absolute;
+    right: 2.5vw;
+    color: rgb(164, 179, 244);
+    opacity: 0;
+
+}
+
+
+
+}
+/*––––––––––––––––––––––––––Phone––––––––––––––––––––––––––––––––*/
+@media only screen and (min-width: 100px) and (max-width: 800px) {
+
+body {
+    background-color: blue;
+}
+
+#figr {
+    position: relative;
+    top: 5vw;
+    height: 500px;
+    margin-left: 15vw;
+}
+
+p {
+    margin-top: 20vw;
+    font-size: .8vw;
+}
+
+.cap {
+    margin-top: 20vw;
+}
+
+
+
+
+
+
+
+
+}
