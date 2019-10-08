@@ -122,26 +122,52 @@ aside {
 @media only screen and (min-width: 100px) and (max-width: 800px) {
 
 body {
-    background-color: blue;
+    background-color: white;
+    display: block;
 }
 
 #figr {
+    display: block;
+    margin: auto;
     position: relative;
     top: 5vw;
-    height: 500px;
-    margin-left: 15vw;
+    margin-left: 0vw;
+}
+
+.sp1 {
+    max-width: 100%;
+    font-size: .3em;
+    line-height: 1em;
+    width: 100vw;
+}
+
+.bk2 {
+    margin-top: 5vw;
+}
+
+.bk1 {
+    font-size: 1em;
 }
 
 p {
-    margin-top: 20vw;
-    font-size: .8vw;
+    font-size: 3vw;
+    display: block;
+    margin: auto;
 }
 
 .cap {
     margin-top: 20vw;
 }
 
+aside {
+    width: 30vw;
+    font-size: 3em;
+    position: absolute;
+    right: 2.5vw;
+    color: rgb(164, 179, 244);
+    opacity: 0;
 
+}
 
 
 
